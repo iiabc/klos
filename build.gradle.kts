@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.hiusers.klos"
-version = "0.0.2"
+version = "0.0.4"
 
 repositories {
     mavenCentral()
@@ -32,7 +32,7 @@ gradlePlugin {
             id = "com.hiusers.klos"
             implementationClass = "com.hiusers.klos.KlosPlugin"
             displayName = "Klos ORM Helper"
-            description = "Auto configures Exposed dependencies and plugin.yml for TabooLib projects"
+            description = "Auto configures Kotlin and Exposed dependencies in plugin.yml for TabooLib projects"
         }
     }
 }
